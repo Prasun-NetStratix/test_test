@@ -39,7 +39,7 @@ graph TB
 ```mermaid
 graph TD
     subgraph "Root Collections"
-        Users[users{uid}]
+        Users[users/{uid}]
         Schools[schools/{schoolId}]
         SuperAdmin[superadmin/]
         System[system/]
