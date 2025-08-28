@@ -55,28 +55,28 @@ graph TD
     end
     
     subgraph "Academic Collections"
-        Attendance[schools/{schoolId}/attendance/{date}/{userId}]
-        AttendanceSummary[schools/{schoolId}/attendanceSummary/{userId}/{month}]
-        Marks[schools/{schoolId}/marks/{studentId}/{examId}]
-        ReportCards[schools/{schoolId}/reportCards/{studentId}/{termId}]
+        Attendance["schools/{schoolId}/attendance/{date}/{userId}"]
+        AttendanceSummary["schools/{schoolId}/attendanceSummary/{userId}/{month}"]
+        Marks["schools/{schoolId}/marks/{studentId}/{examId}"]
+        ReportCards["schools/{schoolId}/reportCards/{studentId}/{termId}"]
     end
     
     subgraph "Financial Collections"
-        FeeStructure[schools/{schoolId}/feeStructure/{structureId}]
-        StudentFees[schools/{schoolId}/studentFees/{studentId}/{academicYear}]
-        FeeTransactions[schools/{schoolId}/feeTransactions/{transactionId}]
+        FeeStructure["schools/{schoolId}/feeStructure/{structureId}"]
+        StudentFees["schools/{schoolId}/studentFees/{studentId}/{academicYear}"]
+        FeeTransactions["schools/{schoolId}/feeTransactions/{transactionId}"]
     end
     
     subgraph "Communication Collections"
-        Announcements[schools/{schoolId}/announcements/{announcementId}]
-        Notifications[schools/{schoolId}/notifications/{userId}/{notificationId}]
-        Events[schools/{schoolId}/events/{eventId}]
+        Announcements["schools/{schoolId}/announcements/{announcementId}"]
+        Notifications["schools/{schoolId}/notifications/{userId}/{notificationId}"]
+        Events["schools/{schoolId}/events/{eventId}"]
     end
     
     subgraph "Operational Collections"
-        Library[schools/{schoolId}/library/books/{bookId}]
-        Transport[schools/{schoolId}/transport/routes/{routeId}]
-        Inventory[schools/{schoolId}/inventory/{itemId}]
+        Library["schools/{schoolId}/library/books/{bookId}"]
+        Transport["schools/{schoolId}/transport/routes/{routeId}"]
+        Inventory["schools/{schoolId}/inventory/{itemId}"]
     end
     
     Schools --> SchoolProfile
