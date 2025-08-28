@@ -46,12 +46,12 @@ graph TD
     end
     
     subgraph "School-Specific Collections"
-        SchoolProfile[schools/{schoolId}/profile]
-        SchoolUsers[schools/{schoolId}/users/{uid}]
-        SchoolStudents[schools/{schoolId}/students/{studentId}]
-        SchoolTeachers[schools/{schoolId}/teachers/{teacherId}]
-        SchoolClasses[schools/{schoolId}/classes/{classId}]
-        SchoolSubjects[schools/{schoolId}/subjects/{subjectId}]
+        SchoolProfile["schools/{schoolId}/profile"]
+        SchoolUsers["schools/{schoolId}/users/{uid}"]
+        SchoolStudents["schools/{schoolId}/students/{studentId}"]
+        SchoolTeachers["schools/{schoolId}/teachers/{teacherId}"]
+        SchoolClasses["schools/{schoolId}/classes/{classId}"]
+        SchoolSubjects["schools/{schoolId}/subjects/{subjectId}"]
     end
     
     subgraph "Academic Collections"
